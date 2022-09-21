@@ -1,0 +1,51 @@
+body{  
+    font-family: Calibri;  
+    text-align: center;
+    
+}  
+input[type="text"] {  
+    width: 250px;  
+}  
+input[type="submit"]{  
+    width: 77px;  
+    height: 27px;  
+    position: relative;left: 180px;  
+}  
+form{  
+    text-align: center;  
+    font-family: Calibri;  
+    font-size: 20px;  
+    border: 3px solid black;  
+    width: 600px;  
+    margin: 20px auto;
+    padding-left: 20px;  
+    background-color: black;
+    color: white;
+    
+} 
+label:hover{
+    background-color: white;
+    color: black;
+}
+input:hover {
+    opacity: 0.8;
+  }
+form h2{
+    border-bottom: 2px solid white;
+}
+td {  
+    padding: 10px;  
+}  
+td:first-child {  
+    text-align: right;  
+    font-weight: bold;  
+}  
+td:last-child {  
+    text-align: left;
+}
+td label{
+    border-bottom: 1px solid white;
+}
+td input{
+    border-radius: 7px;
+}
